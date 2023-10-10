@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     Icons.arrow_back,
                     size: 30,
                   ),
-                  Image.asset('lib/images/zerodhaa.png',
+                  Image.asset('lib/images/kite.png',
                      height: 40,
                      width: 40,
                   )
