@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:zerodha/splash.dart';
 //import 'package:flutter/src/widgets/container.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MyHomePage(),
+      home: Splash(),
     );
   }
 }
@@ -151,14 +152,68 @@ class _MyHomePageState extends State<MyHomePage> {
              ),
 
              const SizedBox(
-              height: 50,
+              height: 70,
              ),
 
-             
+
+             Padding(
+               padding: const EdgeInsets.only(left: 30 ),
+               child: Row(
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  Image.asset('lib/images/Zerodha.png',
+                  height: 50,
+                  width: 100,
+                  color: Colors.black45,
+                  ),
+                ],
+               ),
+             ),
+
+             const SizedBox(
+              height: 0,
+             ),
 
 
-        
-            
+            const Padding(
+              padding: EdgeInsets.only(left: 30),
+              child: Row(
+                children: [
+                  Text("NSE & BSE -SEBI Registration no.:INZ000031633 | MCX -",
+                  style: TextStyle(
+                    fontSize: 13,
+                    color: Colors.black38,
+                  ),
+                  ),
+                ],
+              ),
+            ),
+            const Padding(
+              padding: EdgeInsets.only(left: 30),
+              child: Row(
+                children: [
+                  Text("Registration no.:INZ'000038238 | CDSL - SEBI",
+                   style: TextStyle(
+                    fontSize: 13,
+                    color: Colors.black38,
+                  ),
+                  ),
+                ],
+              ),
+            ),
+            const Padding(
+              padding: EdgeInsets.only(left: 30),
+              child: Row(
+                children: [
+                  Text("no.:IN-DP-431-2019",
+                   style: TextStyle(
+                    fontSize: 13,
+                    color: Colors.black38,
+                  ),
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),
