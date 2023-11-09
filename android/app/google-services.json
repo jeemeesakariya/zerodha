@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1019451403244",
+    "project_id": "zerodha-fa9ef",
+    "storage_bucket": "zerodha-fa9ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019451403244:android:2382eb7cc8a74b73662ec9",
+        "android_client_info": {
+          "package_name": "com.example.zerodha"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaEfSVhLEXZLWlvnl6FMxBIfPQ1swi2JQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

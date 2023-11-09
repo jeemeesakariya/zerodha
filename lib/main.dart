@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:zerodha/firstpage.dart';
 import 'package:zerodha/splash.dart';
 //import 'package:flutter/src/widgets/container.dart';
 
@@ -43,9 +44,14 @@ class _MyHomePageState extends State<MyHomePage> {
                child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  const Icon(
-                    Icons.arrow_back,
-                    size: 30,
+                  GestureDetector(
+                    onTap: (){
+                      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => const FirstPage()));
+                    },
+                    child: const Icon(
+                      Icons.arrow_back,
+                      size: 30,
+                    ),
                   ),
                   Image.asset('lib/images/kite.png',
                      height: 40,
